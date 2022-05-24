@@ -63,8 +63,8 @@ body {
 }
 
 .img-medium {
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
 }
 
@@ -123,15 +123,21 @@ body {
     padding: 5px 35px;
     border-radius: 10px;
     border-left: 10px solid hsl(41deg 86% 58%);
+    min-height: 200px;
+    transition: all 1s ease;
+}
+
+.project:hover {
+    box-shadow: 5px 5px 30px 5px rgb(153, 151, 151);
+    border-left: 10px solid rgb(161, 111, 2);
 }
 
 .icons {
-    margin-left: 50%;
-    padding-bottom: 20px;
+    float: right;
 }
 
 .icons>span {
-    margin-right: 20px;
+    margin-left: 10px;
 }
 
 .content-main {
@@ -164,6 +170,7 @@ body {
 .project-content>p {
     color: gray;
     margin-top: -20px;
+    min-height: 100px;
 }
 
 .annonces {
