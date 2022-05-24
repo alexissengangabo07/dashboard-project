@@ -145,11 +145,6 @@ body {
     gap: 67%;
 }
 
-.project-content>p {
-    color: gray;
-    margin-top: -20px;
-}
-
 ::-webkit-scrollbar {
     width: 7px;
 }
@@ -164,4 +159,13 @@ body {
 
 ::-webkit-scrollbar-thumb:active {
     background: #690000;
+}
+
+.project-content>p {
+    color: gray;
+    margin-top: -20px;
+}
+
+.annonces {
+    margin-left: 15px;
 }
