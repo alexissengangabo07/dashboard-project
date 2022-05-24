@@ -7,19 +7,21 @@ body {
 }
 
 .main {
-    height: 100vh;
+    height: 100%;
     display: grid;
     grid-template-columns: 1fr 4fr;
 }
 
 #sidebar {
-    height: 100vh;
+    height: 100%;
     background-color: hsl(201deg 78% 47%);
+    padding-bottom: 30px;
 }
 
 #container {
-    height: 100vh;
+    height: 100%;
     background-color: hsl(214deg 32% 91%);
+    padding-bottom: 30px;
 }
 
 .nav-bar {
@@ -103,4 +105,54 @@ body {
 
 .content {
     padding: 1px 30px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.project {
+    background-color: white;
+    box-shadow: 5px 5px 10px 0px rgb(185, 183, 183);
+    padding: 5px 35px;
+    border-radius: 10px;
+    border-left: 10px solid hsl(41deg 86% 58%);
+}
+
+.icons {
+    margin-left: 50%;
+    padding-bottom: 20px;
+}
+
+.icons>span {
+    margin-right: 20px;
+}
+
+.content-main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+}
+
+.titles {
+    display: flex;
+    gap: 67%;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #690000;
 }
