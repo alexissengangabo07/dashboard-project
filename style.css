@@ -14,10 +14,93 @@ body {
 
 #sidebar {
     height: 100vh;
-    background-color: aqua;
+    background-color: hsl(201deg 78% 47%);
 }
 
 #container {
     height: 100vh;
-    background-color: red;
+    background-color: hsl(214deg 32% 91%);
+}
+
+.nav-bar {
+    background-color: white;
+    padding: 1px 30px;
+    box-shadow: 0px 0px 20px 0px gray;
+}
+
+#search {
+    height: 28px;
+    width: 535px;
+    border: none;
+    border-radius: 8rem;
+    background-color: hsl(214deg 32% 91%);
+    outline: none;
+    /* padding-left: 15px; */
+    margin-left: 10px;
+    /* margin-right: 140px; */
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px
+}
+
+.img {
+    border-radius: 50%;
+}
+
+.img-small {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.img-medium {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+#user-name {
+    padding-top: 8px;
+}
+
+.btn-blue {
+    background-color: hsl(201deg 78% 47%);
+    border-radius: 8rem;
+    padding: 7px 17px;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    transition: all 1s ease;
+}
+
+.btn-blue:hover {
+    background-color: rgb(8, 89, 133);
+}
+
+.nav1 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    gap: 30px;
+}
+
+.right {
+    margin-top: 20px;
+}
+
+.content {
+    padding: 1px 30px;
 }

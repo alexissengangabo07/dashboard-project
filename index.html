@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard Design</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css">
 </head>
 
 <body>
@@ -16,10 +18,43 @@
 
         </aside>
         <div id="container">
-            <nav>
+            <nav class="nav-bar">
+                <div class="nav1">
+                    <div>
+                        <span class="mdi mdi-magnify" style="font-size: 20px"></span>
+                        <input type="text" name="search" id="search">
+                    </div>
+                    <div class="profile">
+                        <span class="mdi mdi-bell-ring-outline" style="font-size: 20px"></span>
+                        <img src="./images/me.jpg" alt="me" class="img img-small">
+                        <strong id="user-name">Morgan Oakley</strong>
+                    </div>
+
+
+                </div>
+                <div class="nav2">
+                    <div class="left">
+                        <div>
+                            <img src="./images/me.jpg" alt="me" class="img img-medium">
+                        </div>
+                        <div style="margin-top: -10px;">
+                            <p><strong id="hi"><small>Hi, there</small></strong></p>
+                            <p><strong>Morgan Oakley</strong></p>
+                        </div>
+                    </div>
+                    <div class="right btn-group">
+                        <a href="#" class="btn-blue">New</a>
+                        <a href="#" class="btn-blue">Upload</a>
+                        <a href="#" class="btn-blue">Share</a>
+                    </div>
+                </div>
 
             </nav>
-            <div class="content"></div>
+            <div class="content">
+                <div>
+                    <h4>Your Projects</h4>
+                </div>
+            </div>
         </div>
     </div>
 </body>
