@@ -19,16 +19,43 @@
 
         <aside id="sidebar">
             <nav>
-                <div><h1><img src="images/view-dashboard.svg" alt="">Dashboard</h1></div>
-                <div><a href="#"><img src="images/home.svg" alt="">Home</a></div>
-                <div><a href="#"><img src="images/card-account-details.svg" alt="">Profil</a></div>
-                <div><a href="#"><img src="images/message-reply.svg" alt="">Messages</a></div>
-                <div><a href="#"><img src="images/clock-time-four-outline.svg" alt="">History</a></div>
-                <div><a href="#"><img src="" alt="">Tasks</a></div>
-                <div><a href="#"><img src="images/account-group.svg" alt="">Communities</a></div><br><br><br>
-                <div><a href="#"><img src="images/cog.svg" alt="">Settings</a></div>
-                <div><a href="#"><img src="images/help-box.svg" alt="">Support</a></div>
-                <div><a href="#"><img src="images/shield-check-outline.svg" alt="">Privacy</a></div>
+                <div>
+                    <a href="#" class="site-title">
+                        <span class="mdi mdi-view-dashboard"></span>Dashboard
+                    </a>
+                </div>
+                <div>
+                    <ul class="sidebar-links">
+                        <li>
+                            <a href="#"><span class="mdi mdi-home"></span>Home</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="mdi mdi-card-account-mail size_others"></span>Profile</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="mdi mdi-message-reply size_others"></span>Messages</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="mdi mdi-clock-time-three size_others"></span>History</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="mdi mdi-note-multiple size_others"></span>Tasks</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="mdi mdi-account-group size_others"></span>Communities</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="mdi mdi-cog size_others"></span>Settings</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="mdi mdi-help-box size_others"></span>Support</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="mdi mdi-shield-check size_others"></span>Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+
             </nav>
         </aside>
         <div id="container">
@@ -40,7 +67,7 @@
                     </div>
                     <div class="profile">
                         <span class="mdi mdi-bell-ring-outline" style="font-size: 20px"></span>
-                        <img src="./images/me.jpg" alt="me" class="img img-small">
+                        <img src="./images/img-1.png" alt="me" class="img img-small" style="margin-top: -8px">
                         <strong id="user-name">Morgan Oakley</strong>
                     </div>
 
@@ -49,7 +76,7 @@
                 <div class="nav2">
                     <div class="left">
                         <div>
-                            <img src="./images/me.jpg" alt="me" class="img img-medium">
+                            <img src="./images/img-1.png" alt="me" class="img img-medium">
                         </div>
                         <div style="margin-top: -10px;">
                             <p><strong id="hi"><small>Hi, there</small></strong></p>
@@ -61,9 +88,9 @@
                         <a href="#" class="btn-blue">Upload</a>
                         <a href="#" class="btn-blue">Share</a>
                     </div>
-                
-               
-                
+
+
+
             </nav>
             <div class="content">
                 <div class="titles">
@@ -71,7 +98,7 @@
                         <h4>Your Projects</h4>
                     </div>
                     <div>
-                        <h4>Your Projects</h4>
+                        <h4>Announcements</h4>
                     </div>
                 </div>
 
@@ -161,44 +188,70 @@
                             </div>
                         </div>
                     </div>
-                    <div id="blockanotr">
-                        <h1 id="textanoun">Announcements</h1>
-                                <div class="wrapperanoucements">
-                            
-                                    <div><h2>Site maintenance</h2><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, fugit illum atque
-                                        <hr>
+
+                    <div id="right-block">
+                        <div class="annonces">
+                            <div class="annonce-items">
+                                <h6>Titre</h6>
+                                <p class="annonces-detail">Lorem ipsum, dolor sit amet conse ctetur adipisicing elit.</p>
+                            </div>
+                            <div class="annonce-items">
+                                <h6>Titre</h6>
+                                <p class="annonces-detail">Lorem ipsum, dolor sit amet conse ctetur adipisicing elit.</p>
+                            </div>
+                            <div class="annonce-items">
+                                <h6>Titre</h6>
+                                <p class="annonces-detail">Lorem ipsum, dolor sit amet conse ctetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h4>Treding</h4>
+                            <div class="trending annonces">
+                                <div class="trending-items">
+                                    <div>
+                                        <img src="./images/me.jpg" alt="me" class="img img-small">
                                     </div>
-                                    <div ><h2>Community Share Day</h2><br>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, fugit illum atque
-                                    <hr>
+                                    <div>
+                                        <span class="username">@tegan</span>
+                                        <p class="trending-detail">World Peace Builder</p>
+                                    </div>
                                 </div>
-                                <div ><h2>Updated Privacy Policy</h2><br>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, fugit illum atque
+                                <div class="trending-items">
+                                    <div>
+                                        <img src="./images/img-1.png" alt="me" class="img img-small">
+                                    </div>
+                                    <div>
+                                        <span class="username">@morgan</span>
+                                        <p class="trending-detail">Super Cool Project</p>
+                                    </div>
                                 </div>
+                                <div class="trending-items">
+                                    <div>
+                                        <img src="./images/img-3.png" alt="me" class="img img-small">
+                                    </div>
+                                    <div>
+                                        <span class="username">@kendall</span>
+                                        <p class="trending-detail">Life Changing App</p>
+                                    </div>
                                 </div>
-                                <h1 id="titretrend">Trending</h1> 
-                                <div ><h1 >Trending</h1></div>
-                                <div class="wrappertrending">
-                                    
-                                <div id="lignetr1"><img src="images/image-jennie.jpg" class="imgmin"></div>
-                                    <div id="lignetr2"><h3>@tegan</h3>lsdksd</div>
-                                <div id="lignetr3" ><img src="images/image-jennie.jpg" class="imgmin"></div>
-                                <div id="lignetr4" ><h3>@tegan</h3>lsdksd</div>
-                                <div id="lignetr5"><img src="images/image-jennie.jpg" class="imgmin"></div>
-                                <div id="lignetr6"><h3>@tegan</h3>lsdksd</div>
-                                <div id="lignetr7"><img src="images/image-jennie.jpg" class="imgmin"></div>
-                                <div id="lignetr8"> <h3>@tegan</h3>lsdksd</div>
-                    
+                                <div class="trending-items">
+                                    <div>
+                                        <img src="./images/img-4.png" alt="me" class="img img-small">
+                                    </div>
+                                    <div>
+                                        <span class="username">@alex</span>
+                                        <p class="trending-detail">No Traffic Maker</p>
+                                    </div>
                                 </div>
                             </div>
-
-                    </div>
-
                         </div>
-
                     </div>
                 </div>
-</div>
+
+            </div>
+
+            </div>
+        </div>
 </body>
 
 </html>
