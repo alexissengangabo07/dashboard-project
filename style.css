@@ -260,6 +260,10 @@ body {
     transition: all 1s ease;
 }
 
+.sidebar-links>li:nth-of-type(7) {
+    margin-top: 20px;
+}
+
 .sidebar-links>li:hover {
     background-color: rgb(3, 84, 128);
     border-left: 7px solid white;
