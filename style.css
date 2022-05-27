@@ -55,6 +55,9 @@ body {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
+    .nav-mobile {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1100px) {
@@ -99,6 +102,15 @@ body {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
+    .nav-mobile {
+        background-color: hsl(201deg 78% 47%);
+        box-shadow: 0px 0px 20px 0px gray;
+        position: fixed;
+        top: 30;
+        right: 0;
+        left: 0;
+        z-index: 1;
+    }
 }
 
 @media (max-width: 680px) {
@@ -112,6 +124,15 @@ body {
         font-size: 12px;
         margin: 10px 0;
     }
+    .nav-mobile {
+        background-color: hsl(201deg 78% 47%);
+        box-shadow: 0px 0px 20px 0px gray;
+        position: fixed;
+        top: 30;
+        right: 0;
+        left: 0;
+        z-index: 1;
+    }
 }
 
 .site-title {
@@ -124,13 +145,26 @@ body {
 .sidebar-links {
     list-style: none;
     margin-left: -40px;
-    ;
+}
+
+.sidebar-links-mobile {
+    list-style: none;
+    margin-left: -40px;
 }
 
 .sidebar-links>li {
     padding-left: 5px;
     padding-top: 15px;
     padding-bottom: 15px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.sidebar-links-mobile>li {
+    padding-left: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 20px;
     cursor: pointer;
     transition: all 1s ease;
 }
@@ -144,6 +178,10 @@ body {
     border-left: 7px solid white;
 }
 
+.sidebar-links-mobile>li:hover {
+    background-color: rgb(3, 84, 128);
+}
+
 .sidebar-links>li>a {
     text-decoration: none;
     color: white;
@@ -151,7 +189,18 @@ body {
     font-size: medium;
 }
 
+.sidebar-links-mobile>li>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+
 .sidebar-links>li>a>span {
+    margin-right: 8px;
+}
+
+.sidebar-links-mobile>li>a>span {
     margin-right: 8px;
 }
 
@@ -337,12 +386,6 @@ body {
     margin-left: 10px;
 }
 
-.titles {
-    display: flex;
-    gap: 67%;
-    margin-top: 5px;
-}
-
 ::-webkit-scrollbar {
     width: 7px;
 }
@@ -352,11 +395,11 @@ body {
 }
 
  ::-webkit-scrollbar-thumb:hover {
-    background: #b30000;
+    background-color: hsl(201deg 78% 47%);
 }
 
 ::-webkit-scrollbar-thumb:active {
-    background: #690000;
+    background: rgb(1, 60, 92);
 }
 
 .annonces {
@@ -422,4 +465,12 @@ body {
 .project-content {
     display: flex;
     flex-direction: column;
+}
+
+#menu-toggle {
+    visibility: hidden;
+}
+
+.menu-icon:hover {
+    background-color: lightskyblue;
 }
