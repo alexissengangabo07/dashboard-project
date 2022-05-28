@@ -381,6 +381,7 @@ body {
     border-left: 10px solid hsl(41deg 86% 58%);
     min-height: 170px;
     transition: all 1s ease;
+    position: relative;
 }
 
 .project:hover {
@@ -391,13 +392,19 @@ body {
 
 .icons {
     /* float: right; */
-    margin-top: 10%;
+    /* margin-top: 10%;
     margin-left: 70%;
-    display: flex;
+    display: flex; */
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
 }
 
 .icons>span {
     margin-left: 10px;
+}
+.icons>span:hover {
+    color: hsl(201deg 78% 47%);
 }
 
 ::-webkit-scrollbar {
