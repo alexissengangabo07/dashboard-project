@@ -166,7 +166,6 @@ body {
     padding-bottom: 15px;
     margin-left: 20px;
     cursor: pointer;
-    transition: all 1s ease;
 }
 
 .sidebar-links>li:nth-of-type(7) {
