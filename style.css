@@ -133,6 +133,9 @@ body {
         left: 0;
         z-index: 1;
     }
+    .user-name {
+        display: none;
+    }
 }
 
 .site-title {
