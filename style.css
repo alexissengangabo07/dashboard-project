@@ -342,11 +342,14 @@ body {
     border-radius: 8rem;
     color: white;
     text-decoration: none;
-    transition: all 1s ease;
+    transition: all 0.5s ease;
+    border: 1px solid hsl(201deg 78% 47%);
 }
 
 .btn-blue:hover {
-    background-color: rgb(8, 89, 133);
+    border: 1px solid hsl(201deg 78% 47%);
+    background-color: white;
+    color: hsl(201deg 78% 47%);
 }
 
 .nav1 {
