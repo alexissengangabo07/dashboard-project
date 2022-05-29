@@ -124,9 +124,9 @@ body {
         padding: 20px;
         position: absolute;
         background: #1894d5;
-        width: 100%;
         left: 0;
         top: 0;
+        right: 0;
     }
     .nav1 {
         margin-top: 85px;
@@ -163,8 +163,8 @@ body {
         padding: 10px 23px;
         position: absolute;
         background: #1894d5;
-        width: 100%;
         left: 0;
+        right: 0;
         top: 0;
     }
     .nav1 {
