@@ -410,7 +410,7 @@ body {
     padding-bottom: 5px;
     border-radius: 10px;
     border-left: 10px solid hsl(41deg 86% 58%);
-    min-height: 170px;
+    min-height: 182px;
     transition: all 1s ease;
     position: relative;
 }
